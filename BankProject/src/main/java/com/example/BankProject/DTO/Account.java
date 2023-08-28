@@ -27,7 +27,7 @@ Branch branch;
 
 @OneToOne(mappedBy = "account",cascade = CascadeType.ALL)
 Customer customer;
-
+// getters and setters
 public int getId() {
 	return id;
 }
